@@ -6,8 +6,24 @@
   <title>Pari e Dispari</title>
 </head>
 <body>
-  
 
+  <h1>Pari o Dispari</h1>
+
+    <label for="choice">Scegli pari o dispari:</label>
+    <select id="choice">
+        <option value="even">Pari</option>
+        <option value="odd">Dispari</option>
+    </select>
+
+    <div>
+      <label for="number">Inserisci un numero da 1 a 5:</label>
+      <input type="number" id="number" min="1" max="5">
+    </div>
+
+    <button id="submitBtn">Gioca</button>
+
+    <div id="message"></div>
+  
 
   <script src="js/script.js"></script>
 </body>
