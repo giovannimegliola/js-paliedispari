@@ -10,8 +10,8 @@ function isPalindrome(word) {
 }
 
 document.getElementById('submitBtn').addEventListener('click', function() {   //acquisizione della parole inserita dall'utente
-  var inputWord = document.getElementById('word').value;
-  var result = document.getElementById('message');
+  let inputWord = document.getElementById('word').value;
+  let result = document.getElementById('message');
   
   if (isPalindrome(inputWord)) {       //stampa dell'esito
       result.innerText = 'La parola è palindroma!';
