@@ -1,7 +1,7 @@
 
 
 const playBtn = document.getElementById('submitBtn');
-const result = document.getElementById('message');
+let result = document.getElementById('message');
 
 
 playBtn.addEventListener('click', playGame);
